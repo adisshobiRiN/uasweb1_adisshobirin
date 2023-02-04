@@ -1,0 +1,214 @@
+/* CSS reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Style */
+
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+}
+
+/* Style Top-Bar */
+.top-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    background-color: lightseagreen;
+    border-bottom: 5px solid rgba(250, 128, 114, 0.8);
+    z-index: 9999;
+    opacity: 0.75;
+}
+
+/* Style Container */
+.container {
+    width: 960px;
+    margin: 50px auto;
+    background-color: white;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+}
+
+/* Style Ribbon FB */
+.fb {
+    width: 100px;
+    height: 100px;
+    background-image: url(../Images/fb.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: -17.5px;
+    right: -3px;
+    opacity: 0.55;
+    filter: drop-shadow(0 0 0 black);
+}
+
+.fb:hover{
+    filter: drop-shadow(3px 5px 3px black);
+}
+
+/* Style Header */
+.header{
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+
+.header a:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+
+/* Style Hero */
+.hero{
+    height: 150px;
+    background-image: url(../../img/img/hero.PNG);
+    background-size: cover;
+    background-position: 0 -40px;
+    border-top: 5px solid rgb(0, 140, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+/* Style Content dan Main Cotent */
+.content{
+    padding: 20px;
+}
+
+.main{
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.content h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .rilis{
+    font-size: 11px;
+    margin-top: -5px;
+    color: grey;
+}
+
+
+.content p{
+    margin-bottom: 20px;
+    line-height: 23px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+
+/* Style Footer*/
+.footer{
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 7px;
+    box-sizing: border-box;
+}
+
+.footer .cr{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/* Header */
+.main-nav {
+    background-color: #003566;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 80px;
+    z-index: 9999;
+}
+
+.main-nav .navbar-nav a.nav-link, .main-nav .navbar-brand {
+    color: white;
+}
+
+.main-nav .navbar-nav .nav-link.active, .main-nav .navbar-nav .nav-link:hover {
+    color: #FFC300;
+}

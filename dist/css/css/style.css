@@ -1,0 +1,96 @@
+/* Header */
+.main-nav {
+    background-color: #003566;
+}
+
+.main-nav .navbar-nav a.nav-link, .main-nav .navbar-brand {
+    color: white;
+}
+
+.main-nav .navbar-nav .nav-link.active, .main-nav .navbar-nav .nav-link:hover {
+    color: #FFC300;
+}
+
+
+/* Hero */
+.main-hero {
+    background-color: #003566;
+    color: #FFF;
+}
+
+.main-hero h2 span {
+    color: #FFC300;
+}
+
+.main-hero button.btn-warning:hover {
+    background-color: rgba(255, 255, 255, 0.404);
+    color: #FFF;
+    border-color: #FFF;
+}
+.main-hero button.btn-outline-warning:hover {
+    background-color: #003566;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.main-hero img {
+    margin-left: 125px;
+}
+
+/* Konten */
+.main-img img {
+    margin-left: 50px;
+}
+
+.main-content button.btn-warning:hover {
+    background-color: rgba(255, 255, 255, 0.404);
+    color: black;
+    border-color: black;
+}
+
+/* Footer */
+.footer{
+    background-color: #003566;
+    padding: 10px;
+    margin-bottom: 7px;
+    box-sizing: border-box;
+}
+
+.footer .cr{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Login */
+.main-login .container {
+    width: 380px;
+    height: 550px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 50px auto;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+}
+
+.main-login h2 {
+    text-align: center;
+    font-style: bold;
+}
+
+body.login {
+    background-color: #e9edc9;
+}
+
+/* Welcome */
+.main-hero h1{
+    font-size: 75px;
+}
+.main-hero h1 span {
+    color: #FFC300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+
+}
